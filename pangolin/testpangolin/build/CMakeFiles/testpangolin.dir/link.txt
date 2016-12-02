@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g    CMakeFiles/testpangolin.dir/main2.cpp.o  -o testpangolin -rdynamic /home/hwj/Pangolin/build/src/libpangolin.so -lGLU -lGL -lSM -lICE -lX11 -lXext -lGLEW -lX11 -lpython2.7 -ldc1394 -lavcodec -lavformat -lavutil -lswscale -lOpenNI -lOpenNI2 -lpng -lz -ljpeg -ltiff -lIlmImf -Wl,-rpath,/home/hwj/Pangolin/build/src 

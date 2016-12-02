@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/testsophus.dir/main.cpp.o  -o testsophus -rdynamic /home/hwj/desktop/slambook/3rdparty/Sophus/build/libSophus.so -Wl,-rpath,/home/hwj/desktop/slambook/3rdparty/Sophus/build 

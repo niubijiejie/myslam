@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="testpangolin" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Pangolin\;CMake Files\..\..\..\..\Pangolin\build\;CMake Files\..\..\..\..\Pangolin\build\src\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/hwj/desktop/myslam/pangolin/testpangolin/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/hwj/desktop/myslam/pangolin/testpangolin/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testpangolin">
+         <Option output="/home/hwj/desktop/myslam/pangolin/testpangolin/build/testpangolin" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/hwj/desktop/myslam/pangolin/testpangolin/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/hwj/Pangolin/build/src/include" />
+            <Add directory="/home/hwj/Pangolin/include" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 testpangolin" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testpangolin/fast">
+         <Option output="/home/hwj/desktop/myslam/pangolin/testpangolin/build/testpangolin" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/hwj/desktop/myslam/pangolin/testpangolin/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/hwj/Pangolin/build/src/include" />
+            <Add directory="/home/hwj/Pangolin/include" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 testpangolin/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/pangolin/testpangolin/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/hwj/desktop/myslam/pangolin/testpangolin/main2.cpp">
+      </Unit>
+      <Unit filename="/home/hwj/desktop/myslam/pangolin/testpangolin/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/hwj/desktop/myslam/pangolin/testpangolin/../../../../Pangolin/build/src/PangolinConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Pangolin\build\src\" />
+      </Unit>
+      <Unit filename="/home/hwj/desktop/myslam/pangolin/testpangolin/../../../../Pangolin/build/src/PangolinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Pangolin\build\src\" />
+      </Unit>
+      <Unit filename="/home/hwj/desktop/myslam/pangolin/testpangolin/../../../../Pangolin/build/src/PangolinTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Pangolin\build\src\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

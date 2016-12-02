@@ -1,0 +1,1 @@
+/home/hwj/desktop/myslam/testg2o/directmethod/direct/build/CMakeFiles/direct.dir

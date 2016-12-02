@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="testsophus" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\slambook\;CMake Files\..\..\..\slambook\3rdparty\;CMake Files\..\..\..\slambook\3rdparty\Sophus\;CMake Files\..\..\..\slambook\3rdparty\Sophus\build\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/hwj/desktop/myslam/sophus/testsophus/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/hwj/desktop/myslam/sophus/testsophus/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testsophus">
+         <Option output="/home/hwj/desktop/myslam/sophus/testsophus/build/testsophus" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/hwj/desktop/myslam/sophus/testsophus/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/hwj/desktop/slambook/3rdparty/Sophus" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 testsophus" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testsophus/fast">
+         <Option output="/home/hwj/desktop/myslam/sophus/testsophus/build/testsophus" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/hwj/desktop/myslam/sophus/testsophus/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/hwj/desktop/slambook/3rdparty/Sophus" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 testsophus/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/hwj/desktop/myslam/sophus/testsophus/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/hwj/desktop/myslam/sophus/testsophus/main.cpp">
+      </Unit>
+      <Unit filename="/home/hwj/desktop/myslam/sophus/testsophus/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/hwj/desktop/myslam/sophus/testsophus/../../../slambook/3rdparty/Sophus/build/SophusConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\slambook\3rdparty\Sophus\build\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
