@@ -3,8 +3,6 @@
 
 CMakeFiles/testg2o.dir/main.cpp.o
  /home/hwj/desktop/myslam/testg2o/testg2o/main.cpp
- /usr/local/include/SuiteSparse_config.h
- /usr/local/include/cs.h
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Dense

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/testimu6.dir/main.cpp.o  -o testimu6 -rdynamic -lLpSensor -lpthread -ldl -lrt 

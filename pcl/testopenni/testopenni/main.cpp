@@ -96,6 +96,8 @@ int main()
     result = oniColorStream.start();
     CheckOpenNIError( result, "start color stream" );
     int count = 0;
+
+    int iMaxDepth = oniDepthStream.getMaxPixelValue();
     while(true)
     {
         // read frame
@@ -104,14 +106,23 @@ int main()
             // convert data into OpenCV type
             Mat cvRGBImg( oniColorImg.getHeight(), oniColorImg.getWidth(), CV_8UC3, (void*)oniColorImg.getData() );
             cvtColor( cvRGBImg, cvBGRImg, CV_RGB2BGR );
+            flip(cvBGRImg,cvBGRImg,1);
             imshow( "image", cvBGRImg );
         }
 
         if( oniDepthStream.readFrame( &oniDepthImg ) == STATUS_OK )
         {
             Mat cvRawImg16U( oniDepthImg.getHeight(), oniDepthImg.getWidth(), CV_16UC1, (void*)oniDepthImg.getData() );
-
+            /*for(int k=0;k<cvRawImg16U.rows;k++)
+            {
+                ushort* outData=cvRawImg16U.ptr<ushort>(k);
+                for(int i=0;i<cvRawImg16U.cols;i++)
+                {
+                    outData[i]=iMaxDepth - outData[i];
+                }
+            }*/
             cvRawImg16U.convertTo( cvDepthImg, CV_8U, 255.0/3000);
+            flip(cvDepthImg,cvDepthImg,1);
             imshow( "depth", cvDepthImg );
         }
         char input = waitKey(1);

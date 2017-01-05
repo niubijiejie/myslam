@@ -4,7 +4,7 @@ set( CMAKE_BUILD_TYPE Release )
 set( CMAKE_CXX_FLAGS "-std=c++11 -O3" )
 
 # OpenCV
-find_package( OpenCV REQUIRED )
+find_package( OpenCV 3.1.0 REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 MESSAGE(STATUS "The Opencv's include directory is:" ${OpenCV_INCLUDE_DIRS})
 

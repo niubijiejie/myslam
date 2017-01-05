@@ -5,7 +5,7 @@
       <Option title="testopenni" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\..\..\..\usr\share\pcl-1.7\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\vtk-5.8\;CMake Files\..\..\..\..\..\..\..\usr\lib\vtk-5.8\CMake\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\..\usr\share\pcl-1.7\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\vtk-5.8\;CMake Files\..\..\..\..\..\..\..\usr\lib\vtk-5.8\CMake\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/build" />
@@ -107,17 +107,17 @@
       <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
-      <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/../../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\" />
+      <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/../../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\" />
       </Unit>
-      <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/../../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\" />
+      <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/../../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\" />
       </Unit>
-      <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/../../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\" />
+      <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/../../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\" />
       </Unit>
-      <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/../../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\" />
+      <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/../../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\share\OpenCV\" />
       </Unit>
       <Unit filename="/home/hwj/desktop/myslam/pcl/testopenni/testopenni/../../../../../../../usr/share/pcl-1.7/PCLConfigVersion.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\pcl-1.7\" />
